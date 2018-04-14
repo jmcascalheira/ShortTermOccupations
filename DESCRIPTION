@@ -1,9 +1,11 @@
 Package: ShortTermOccupations
-Title: What the Package Does (one line, title case)
+Title: Research compendium for 'The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory'
 Version: 0.0.0.9000
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: R code and data associated with 'The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory'
 Depends: R (>= 3.4.4)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/jmcascalheira/ShortTermOccupations
+BugReports: https://github.com/jmcascalheira/ShortTermOccupations/issues
