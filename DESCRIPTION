@@ -9,3 +9,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/jmcascalheira/ShortTermOccupations
 BugReports: https://github.com/jmcascalheira/ShortTermOccupations/issues
+Imports: bookdown
