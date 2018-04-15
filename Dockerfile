@@ -4,7 +4,7 @@ FROM rocker/verse:3.4.4
 # required
 MAINTAINER João Cascalheira <jmcasca@gmail.com>
 
-COPY . /ShortTermOccupations
+COPY . /shorttermoccupations
 
 # go into the repo directory
 RUN . /etc/environment \
