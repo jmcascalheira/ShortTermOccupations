@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Travis-CI Build Status](https://travis-ci.org/jmcascalheira/ShortTermOccupations.svg?branch=master)](https://travis-ci.org/jmcascalheira/ShortTermOccupations)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2018--04--18-brightgreen.svg)](https://github.com/jmcascalheira/ShortTermOccupations/commits/master) [![minimal R version](https://img.shields.io/badge/R%3E%3D-3.2.4-brightgreen.svg)](https://cran.r-project.org/) [![Travis-CI Build Status](https://travis-ci.org/jmcascalheira/ShortTermOccupations.svg?branch=master)](https://travis-ci.org/jmcascalheira/ShortTermOccupations) [![Licence](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/) [![ORCiD](https://img.shields.io/badge/ORCiD-/0000--0003--0321--8892-green.svg)](http://orcid.org/0000-0003-0321-8892)
 
 ShortTermOccupations
 ====================
@@ -11,13 +11,13 @@ This repository contains the data and code for our paper:
 
 Our pre-print is online here:
 
-> Bicho, N. and Cascalheira, J., (YYYY). *The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory*. Name of journal/book, Accessed 14 Apr 2018. Online at <https://doi.org/xxx/xxx>
+> Bicho, N. and Cascalheira, J., (YYYY). *The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory*. Name of journal/book, Accessed 18 Apr 2018. Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Cascalheira, J. and Bicho, N., (2018). *Compendium of R code and data for 'The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory'*. Accessed 14 Apr 2018. Online at <https://doi.org/xxx/xxx>
+> Cascalheira, J. and Bicho, N., (2018). *Compendium of R code and data for 'The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory'*. Accessed 18 Apr 2018. Online at <https://doi.org/xxx/xxx>
 
 ### How to download or install
 

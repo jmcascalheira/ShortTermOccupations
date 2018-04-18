@@ -1,8 +1,8 @@
 ---
 title: "The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory"
 author:
-  - Nuno Bicho (ICArEHB, University of Algarve)
-  - João Cascalheira (ICArEHB, University of Algarve)
+  - Nuno Bicho (ICArEHB, University of Algarve, Faro, Portugal) nbicho@ualg.pt
+  - João Cascalheira (ICArEHB, University of Algarve, Faro, Portugal) jmcascalheira@ualg.pt
 date: '`r Sys.Date()`'
 output: 
     bookdown::word_document2: #subsistute by pdf_document2 or hmtl_document2 as necessary
@@ -12,8 +12,6 @@ bibliography: references.bib
 csl: "../templates/journal-of-archaeological-science.csl"
 abstract: |
   Text of abstract
-keywords: |
-  keyword 1; keyword 2; keyword 3
 ---
 
 
@@ -24,12 +22,12 @@ knitr::opts_chunk$set(
   message = FALSE,
   echo = FALSE,
   comment = "#>",
-  dpi = 900,
+  dpi = 300,
   fig.width = 9,
   fig.path = "../figures/"
   )
 
-library(ShortTermOccupations) # Or use devtools::load_all('.', quiet = T) if your code is in script files, rather than as functions in the `/R` diretory
+#library(ShortTermOccupations) # Or use devtools::load_all('.', quiet = T) if your code is in script files, rather than as functions in the `/R` diretory
 ```
 
 ```{r load_libraries, echo = FALSE}
@@ -77,10 +75,10 @@ Dataset$ToolDiversity <- Dataset$ToolTypes / (sqrt(Dataset$RetouchedTools))
 Dataset$FeaturesFreq <- Dataset$Features / Dataset$SampledVolume
 
 #Filter variables to show on paper
-Dataset2 <- Dataset[c(1,2,12:18)]
+#Dataset2 <- Dataset[c(1,2,12:18)]
 
 #Show Table 2
-knitr::kable(Dataset2,
+knitr::kable(Dataset,
              digits = 2,
              row.names = FALSE,
              caption = "Archaeological data based on variables used in this study"
@@ -209,7 +207,7 @@ Figure2
 
 ```
 
-```{r figure3, fig.cap="Correlation plots between Dimension 1 and 2 (left) and Dimension 3 and 4 (right)"}
+```{r figure3, fig.cap="Correlation plots of variables, between Dimension 1 and 2 (left) and Dimension 3 and 4 (right)"}
 
 #Plot correlation plot of variables
 A <- fviz_pca_var(ShortTerm.pca,
