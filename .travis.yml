@@ -2,7 +2,7 @@
 
 env:
   global:
-  - REPO=$DOCKER_USER/shorttermoccupations:tagname
+  - REPO=$DOCKER_USER/shorttermoccupations
 
 sudo: required
 
