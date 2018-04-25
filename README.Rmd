@@ -73,6 +73,11 @@ The package has a number of dependencies on other R packages, and programs outsi
 We welcome contributions from everyone. Before you get started, please see our [contributor guidelines](CONTRIBUTING.md). Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 
+### Dependencies:
+
+See the colophon section of the docx file in `analysis/paper` for a full list of the packages that this project depends on. 
+
+
 ### Contact: 
 
 João Cascalheira, Post-Doc Researcher, ICArEHB
