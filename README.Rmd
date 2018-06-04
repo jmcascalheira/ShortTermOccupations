@@ -46,7 +46,7 @@ This repository is organized as an R package using rrtools by Ben Marwick which 
 devtools::install_github("benmarwick/rrtools")
 ```
 
-There are no actual R functions in this package - all the R code is in the Rmd file. I simply used the R package structure to help manage dependencies, to take advantage of continuous integration for automated code testing, and so I didn't have to think too much about how to organise the files.
+There are no actual R functions in this package - all the R code is in the Rmd file. We simply used the R package structure to help manage dependencies, to take advantage of continuous integration for automated code testing, and so I didn't have to think too much about how to organise the files.
 
 To download the package source as you see it on GitHub, for offline browsing, use this line at the shell prompt (assuming you have Git installed on your computer):
 
