@@ -14,7 +14,6 @@ knitr::opts_chunk$set(
 
 [![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-brightgreen.svg)](https://github.com/jmcascalheira/ShortTermOccupations/commits/master)
 [![minimal R version](https://img.shields.io/badge/R%3E%3D-3.2.4-brightgreen.svg)](https://cran.r-project.org/) 
-[![Travis-CI Build Status](https://travis-ci.org/jmcascalheira/ShortTermOccupations.svg?branch=master)](https://travis-ci.org/jmcascalheira/ShortTermOccupations)
 [![Licence](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
 [![ORCiD](https://img.shields.io/badge/ORCiD-/0000--0003--0321--8892-green.svg)](http://orcid.org/0000-0003-0321-8892)
 
@@ -39,7 +38,7 @@ Please cite this compendium as:
 
 You can download the compendium as a zip from from this URL: <https://github.com/jmcascalheira/ShortTermOccupations/archive/master.zip>
 
-This repository is organized as an R package using rrtools by Ben Marwick which can be installed from github with:
+This repository is organized as an R package using rrtools by Ben Marwick, which can be installed from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
