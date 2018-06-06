@@ -1,9 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![Last-changedate](https://img.shields.io/badge/last%20change-2018--06--05-brightgreen.svg)](https://github.com/jmcascalheira/ShortTermOccupations/commits/master)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2018--06--06-brightgreen.svg)](https://github.com/jmcascalheira/ShortTermOccupations/commits/master)
 [![minimal R
 version](https://img.shields.io/badge/R%3E%3D-3.2.4-brightgreen.svg)](https://cran.r-project.org/)
+[![Build
+Status](https://travis-ci.org/jmcascalheira/ShortTermOccupations.svg?branch=master)](https://travis-ci.org/jmcascalheira/ShortTermOccupations)
 [![Licence](https://img.shields.io/github/license/mashape/apistatus.svg)](http://choosealicense.com/licenses/mit/)
 [![ORCiD](https://img.shields.io/badge/ORCiD-/0000--0003--0321--8892-green.svg)](http://orcid.org/0000-0003-0321-8892)
 
@@ -11,16 +13,15 @@ version](https://img.shields.io/badge/R%3E%3D-3.2.4-brightgreen.svg)](https://cr
 
 This repository contains the data and code for our paper:
 
-> Bicho, N. and Cascalheira, J., (YYYY). *The use of lithic assemblages
-> for the definition of short-term occupations in hunter-gatherer
-> prehistory*. Short-term occupations in Paleolithic Archaeology
-> <https://doi.org/xxx/xxx>
+> Bicho, N. and Cascalheira, J.. *The use of lithic assemblages for the
+> definition of short-term occupations in hunter-gatherer prehistory*.
+> Short-term occupations in Paleolithic Archaeology
 
 Our pre-print is online here:
 
-> Bicho, N. and Cascalheira, J., (YYYY). *The use of lithic assemblages
+> Bicho, N. and Cascalheira, J., (2018). *The use of lithic assemblages
 > for the definition of short-term occupations in hunter-gatherer
-> prehistory*. Name of journal/book, Accessed 05 Jun 2018. Online at
+> prehistory*. Name of journal/book, Accessed 06 Jun 2018. Online at
 > <https://doi.org/xxx/xxx>
 
 ### How to cite
@@ -29,8 +30,8 @@ Please cite this compendium as:
 
 > Cascalheira, J. and Bicho, N., (2018). *Compendium of R code and data
 > for ‘The use of lithic assemblages for the definition of short-term
-> occupations in hunter-gatherer prehistory’*. Accessed 05 Jun 2018.
-> Online at <https://doi.org/10.17605/OSF.IO/AWYVF>
+> occupations in hunter-gatherer prehistory’*. Accessed 06 Jun 2018.
+> Online at <https://doi.org/10.17605/OSF.IO/J39SU>
 
 ### How to download or install
 
