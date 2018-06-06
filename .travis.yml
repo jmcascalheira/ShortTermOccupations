@@ -1,28 +1,13 @@
-# Build our Docker container and R pkg on Travis
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
-env:
-  global:
-  - REPO=$DOCKER_USER/shorttermoccupations
+language: R
+sudo: true
+cache:
+  directories: $TRAVIS_BUILD_DIR/packrat/
+  packages: true
 
-sudo: required
-
+install:
+  - sudo apt-get update
+  - sudo apt-get install libudunits2-dev -y
+  - R -e "0" --args --bootstrap-packrat
 warnings_are_errors: false
-
-language: generic
-
-services:
-  - docker
-
-before_install:
-    # create & run container using our dockerfile, i.e. compile pkg and render Rmd to Word doc
-  - docker build -t $REPO .
-
-# push our custom docker container to docker hub, env vars stored on travis-ci.org
-after_success:
-  - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-  - export REPO=$DOCKER_USER/shorttermoccupations
-  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
-  - docker build -f Dockerfile -t $REPO:$COMMIT .
-  - docker tag $REPO:$COMMIT $REPO:$TAG
-  - docker tag $REPO:$COMMIT $REPO:travis-$TRAVIS_BUILD_NUMBER
-  - docker push $REPO

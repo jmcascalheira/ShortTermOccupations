@@ -9,14 +9,14 @@ COPY . /shorttermoccupations
 # go into the repo directory
 RUN . /etc/environment \
 
-  # Install linux depedendencies here
-  # e.g. need this for ggforce::geom_sina
+  # need this for ggforce::geom_sina
   && sudo apt-get update \
   && sudo apt-get install libudunits2-dev -y \
 
-  # build this compendium package
-  && R -e "devtools::install('/ShortTermOccupations', dep=TRUE)" \
+  # what is in /ShortTermOccupations?
+  && ls /ShortTermOccupations \
 
- # render the manuscript into a docx, you'll need to edit this if you've
- # customised the location and name of your main Rmd file
+  # build this compendium package
+  && R -e "options(repos='$MRAN'); devtools::install('/ShortTermOccupations', dep=TRUE)" \
+ # render the manuscript into a docx
   && R -e "rmarkdown::render('/ShortTermOccupations/analysis/paper/paper.Rmd')"
