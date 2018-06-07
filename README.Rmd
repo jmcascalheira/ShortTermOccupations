@@ -22,11 +22,11 @@ knitr::opts_chunk$set(
 
 This repository contains the data and code for our paper:
 
-> Bicho, N. and Cascalheira, J.. _The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory_. Short-term occupations in Paleolithic Archaeology
+> Bicho, N. and Cascalheira, J. (Accepted) _The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory_. In Picin, A. and Cascalheira, J. (eds.) Short-term occupations in Paleolithic Archaeology. Interdisciplinary Contributions to Archaeology. Springer.
 
 Our pre-print is online here:
 
-> Bicho, N. and Cascalheira, J., (2018). _The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory_. Name of journal/book, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Bicho, N. and Cascalheira, J., (2018). _The use of lithic assemblages for the definition of short-term occupations in hunter-gatherer prehistory_. SocArXiv, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/10.17605/OSF.IO/3WGSA>
 
 
 ### How to cite
