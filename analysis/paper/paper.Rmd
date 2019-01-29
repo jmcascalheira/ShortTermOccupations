@@ -5,11 +5,11 @@ author:
   - João Cascalheira (ICArEHB, University of Algarve, Faro, Portugal) jmcascalheira@ualg.pt
 date: '`r Sys.Date()`'
 output: 
-    bookdown::word_document2: #subsistute by pdf_document2 or hmtl_document2 as necessary
+    bookdown::word_document2:
       fig_caption: yes
       reference_docx: "../templates/template2.docx" 
 bibliography: ShortTermOccupations.bib
-csl: "../templates/springer-basic-author-date.csl"
+csl: "../templates/springer-socpsych-author-date.csl"
 abstract: |
   One of the main elements in prehistoric research is the study of settlement patterns. In the last five decades, stemming partially from Binford’s research on the topic, the idea of settlement patterns is based on site typology, including the traditional residential and logistic concepts. Both models of land use and exploitation are certainly marked by the notion of short-term occupation. This concept, used freely by many archaeologists, tends to rely on two main ideas: an occupation lasted a short span of time and resulted in a limited amount of material culture. Our aim, based on our results from various archaeological case studies dated to the Upper Paleolithic of Portugal, is to show that neither idea is necessarily correct: e.g. there may be short-term occupations with the production of large amounts of artifacts, such as lithic workshops; there might be very small collections, such as lithic caches, resulting from short occupations but with very long uses of the site; and most times, both are hardly differentiated within complex palimpsests. Our study shows that the common use of lithic volumetric density and retouch frequency is not always sufficient to differentiate between short and long-term occupations. Also, there are other variables that are more sensitive to indicate the duration of occupation of an archaeological context that should be used in the identification of time length.
 
